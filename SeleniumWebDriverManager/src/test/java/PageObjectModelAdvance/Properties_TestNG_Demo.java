@@ -19,6 +19,8 @@ public class Properties_TestNG_Demo {
 	@BeforeTest
 	public void setupTest() {
 	
+		PropertiesFile.getProperties();
+		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -59,6 +61,8 @@ public class Properties_TestNG_Demo {
 		
 		//Printing the result
 		System.out.println("Test Completed Successfully");
+		
+		PropertiesFile.setProperties();
 	}
 
 }

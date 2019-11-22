@@ -11,20 +11,21 @@ public class PropertiesFile {
 	static Properties prop = new Properties();
 	static String projectPath = System.getProperty("user.dir");
 	
+	/**
 	public static void main(String[] args) {
 		getProperties();
 		setProperties();
 		getProperties();
-	}
+	} **/
 	
 	public static void getProperties() {
 		try {
-		InputStream input = new FileInputStream(projectPath+"/src/test/java/Properties_Config/config.properties");
+		InputStream input = new FileInputStream(projectPath+"/src/test/java/PageObjectModelAdvance/config.properties");
 		
 		prop.load(input);
 		String browser = prop.getProperty("browser");
 		System.out.println(browser);
-		Properties_TestNG_Demo.browserName = prop.getProperty(browser);
+		Properties_TestNG_Demo.browserName = browser;
 		
 		} catch (Exception exp) {
 			System.out.println(exp.getMessage());
@@ -37,9 +38,9 @@ public class PropertiesFile {
 	
 	public static void setProperties() {
 		try {
-		OutputStream output = new FileOutputStream(projectPath+"/src/test/java/Properties_Config/config.properties");
+		OutputStream output = new FileOutputStream(projectPath+"/src/test/java/PageObjectModelAdvance/config.properties");
 	
-		prop.setProperty("browser", "chrome");
+		prop.setProperty("result", "pass");
 		prop.store(output, null);
 		
 		} catch (Exception exp) {
