@@ -1,5 +1,7 @@
 package iRBNET;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
@@ -57,8 +59,11 @@ public class IRBNet_Test {
 
 		LoginTest.log(Status.INFO,"Starting Test Case");
 		driver.get("https://validation.irbnet.org/release/index.html");
+		driver.manage().window().maximize();
 		LoginTest.pass("Visiting IRBNet portal");
 
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		IRBNetHomePageObj.setLogin_Username("valresearch1");
 		LoginTest.pass("Inserting login Username");
 
