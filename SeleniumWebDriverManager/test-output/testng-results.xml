@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-22T18:22:49 BDT" name="Default suite" finished-at="2019-11-22T18:23:25 BDT" duration-ms="36895">
+  <suite started-at="2019-11-22T20:51:42 BDT" name="Default suite" finished-at="2019-11-22T20:51:59 BDT" duration-ms="16296">
     <groups>
     </groups>
-    <test started-at="2019-11-22T18:22:49 BDT" name="Default test" finished-at="2019-11-22T18:23:25 BDT" duration-ms="36895">
-      <class name="main.IRBNet_Test_Main_Class">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:main.IRBNet_Test_Main_Class@4e91d63f]" started-at="2019-11-22T18:22:48 BDT" name="setUp" finished-at="2019-11-22T18:22:49 BDT" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:main.IRBNet_Test_Main_Class@4e91d63f]" started-at="2019-11-22T18:22:49 BDT" name="setupTest" finished-at="2019-11-22T18:22:54 BDT" duration-ms="5816" status="PASS">
+    <test started-at="2019-11-22T20:51:42 BDT" name="Default test" finished-at="2019-11-22T20:51:59 BDT" duration-ms="16296">
+      <class name="PageObjectModelAdvance.Properties_TestNG_Demo">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:PageObjectModelAdvance.Properties_TestNG_Demo@3c9d0b9d]" started-at="2019-11-22T20:51:42 BDT" name="setupTest" finished-at="2019-11-22T20:51:49 BDT" duration-ms="6201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="IRBNet_Login_Test()[pri:0, instance:main.IRBNet_Test_Main_Class@4e91d63f]" started-at="2019-11-22T18:22:54 BDT" name="IRBNet_Login_Test" finished-at="2019-11-22T18:23:25 BDT" duration-ms="30981" status="PASS">
+        <test-method signature="googleSearchTest()[pri:0, instance:PageObjectModelAdvance.Properties_TestNG_Demo@3c9d0b9d]" started-at="2019-11-22T20:51:49 BDT" name="googleSearchTest" finished-at="2019-11-22T20:51:56 BDT" duration-ms="7150" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IRBNet_Login_Test -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:main.IRBNet_Test_Main_Class@4e91d63f]" started-at="2019-11-22T18:23:25 BDT" name="tearDownTest" finished-at="2019-11-22T18:23:25 BDT" duration-ms="82" status="PASS">
+        </test-method> <!-- googleSearchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:PageObjectModelAdvance.Properties_TestNG_Demo@3c9d0b9d]" started-at="2019-11-22T20:51:56 BDT" name="tearDownTest" finished-at="2019-11-22T20:51:59 BDT" duration-ms="2909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:main.IRBNet_Test_Main_Class@4e91d63f]" started-at="2019-11-22T18:23:26 BDT" name="tearDown" finished-at="2019-11-22T18:23:26 BDT" duration-ms="280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- main.IRBNet_Test_Main_Class -->
+      </class> <!-- PageObjectModelAdvance.Properties_TestNG_Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
