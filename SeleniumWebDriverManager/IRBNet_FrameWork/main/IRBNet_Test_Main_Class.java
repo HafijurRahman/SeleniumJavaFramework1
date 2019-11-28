@@ -87,7 +87,7 @@ public class IRBNet_Test_Main_Class {
 		Assert.assertTrue(message.contains("Welcome to IRBNet"));
 		LoginTest.pass("Validating left navigation column's Welcome text");
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		LoginTest.pass("Waiting for some seconds");
 
 		UserLandingPageObj.click_LogoutButton();
