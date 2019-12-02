@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="main.IRBNet_Test_Main_Class">
+      <class name="TestNG_Listeners_Demo.TestNGListenerDemo">
         <methods>
-          <include name="tearDownTest"/>
-          <include name="setUp"/>
-          <include name="setupTest"/>
-          <include name="tearDown"/>
-          <include name="IRBNet_Login_Test"/>
+          <include name="test2"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- main.IRBNet_Test_Main_Class -->
+      </class> <!-- TestNG_Listeners_Demo.TestNGListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
