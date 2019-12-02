@@ -76,7 +76,7 @@ public class ExcelUtilsTest1 {
 		
 		try {
 			cellData = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
-			System.out.println(cellData);
+			//System.out.println(cellData);
 
 		} catch (Exception exp) {
 			System.out.println(exp.getMessage());
