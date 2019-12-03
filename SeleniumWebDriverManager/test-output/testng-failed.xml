@@ -17,6 +17,11 @@
           <include name="test3"/>
         </methods>
       </class> <!-- TestNG_Listeners_Demo.TestNGListenerDemo -->
+      <class name="TestNG_Listeners_Demo.TestNGListenerDemo3">
+        <methods>
+          <include name="test9"/>
+        </methods>
+      </class> <!-- TestNG_Listeners_Demo.TestNGListenerDemo3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
