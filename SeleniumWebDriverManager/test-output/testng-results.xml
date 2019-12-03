@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-03T16:33:14 BDT" name="Suite1" finished-at="2019-12-03T16:33:14 BDT" duration-ms="38">
+  <suite started-at="2019-12-03T16:55:54 BDT" name="Default suite" finished-at="2019-12-03T16:55:54 BDT" duration-ms="52">
     <groups>
+      <group name="sanity1">
+        <method signature="TestNG_DependenciesDemo.test10()[pri:0, instance:TestNG_Dependencies.TestNG_DependenciesDemo@1a04f701]" name="test10" class="TestNG_Dependencies.TestNG_DependenciesDemo"/>
+      </group> <!-- sanity1 -->
+      <group name="sanity2">
+        <method signature="TestNG_DependenciesDemo.test11()[pri:0, instance:TestNG_Dependencies.TestNG_DependenciesDemo@1a04f701]" name="test11" class="TestNG_Dependencies.TestNG_DependenciesDemo"/>
+      </group> <!-- sanity2 -->
     </groups>
-    <test started-at="2019-12-03T16:33:14 BDT" name="Test1" finished-at="2019-12-03T16:33:14 BDT" duration-ms="38">
-      <class name="TestNG_Parameters.TestNG_ParametersDemo">
-        <test-method signature="test(java.lang.String)[pri:0, instance:TestNG_Parameters.TestNG_ParametersDemo@15b204a1]" started-at="2019-12-03T16:33:14 BDT" name="test" finished-at="2019-12-03T16:33:14 BDT" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hafij]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2019-12-03T16:55:54 BDT" name="Default test" finished-at="2019-12-03T16:55:54 BDT" duration-ms="52">
+      <class name="TestNG_Dependencies.TestNG_DependenciesDemo">
+        <test-method signature="test10()[pri:0, instance:TestNG_Dependencies.TestNG_DependenciesDemo@1a04f701]" started-at="2019-12-03T16:55:54 BDT" name="test10" finished-at="2019-12-03T16:55:54 BDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- TestNG_Parameters.TestNG_ParametersDemo -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- test10 -->
+        <test-method signature="test11()[pri:0, instance:TestNG_Dependencies.TestNG_DependenciesDemo@1a04f701]" started-at="2019-12-03T16:55:54 BDT" name="test11" finished-at="2019-12-03T16:55:54 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method signature="test9()[pri:0, instance:TestNG_Dependencies.TestNG_DependenciesDemo@1a04f701]" started-at="2019-12-03T16:55:54 BDT" name="test9" depends-on-groups="sanity.*" finished-at="2019-12-03T16:55:54 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+      </class> <!-- TestNG_Dependencies.TestNG_DependenciesDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
