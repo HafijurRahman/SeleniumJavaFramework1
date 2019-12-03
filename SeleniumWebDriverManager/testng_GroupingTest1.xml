@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="Test1">
+  
+  
+  <groups>
+  
+  <!-- Meta Grouping
+  	<define name="Regression1">
+  		<include name="regression"></include>
+  		<include name="smoke"></include>
+  	</define> 	
+ Meta Grouping -->
+  
+  	<run>
+  	
+  <!--	<include name="sanity"></include> 
+  		<exclude name="regression"></exclude>   -->
+
+  <!-- Meta Grouping <include name="Regression1"></include>	Meta Grouping -->
+  
+  <!-- Regular Expression	<include name="windows.*"></include>	 -->
+  		
+  		<include name="AllClassTests"></include>
+  
+  	</run>
+  </groups>
+  
+  
+    <classes>
+      <class name="TestNG_Grouping.TestNG_GroupingDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
