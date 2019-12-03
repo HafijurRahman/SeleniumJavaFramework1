@@ -9,18 +9,18 @@ import org.testng.annotations.Test;
 public class TestNGListenerDemo3 {
 	
 	@Test
-	public void test4() {
-		System.out.println("I am inside test4");
+	public void test7() {
+		System.out.println("I am inside test7");
 	}
 	
 	@Test
-	public void test5() {
-		System.out.println("I am inside test5");
+	public void test8() {
+		System.out.println("I am inside test8");
 	}
 	
 	@Test
-	public void test6() {
-		System.out.println("I am inside test6");
+	public void test9() {
+		System.out.println("I am inside test9");
 		throw new SkipException("This test is skipped");
 	}
 	
