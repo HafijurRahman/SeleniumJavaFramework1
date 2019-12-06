@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_ReRunTests.TestNG_ReRunTestsDemo">
+      <class name="KatalonRecorder.Test2">
         <methods>
-          <include name="test3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- TestNG_ReRunTests.TestNG_ReRunTestsDemo -->
+      </class> <!-- KatalonRecorder.Test2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
