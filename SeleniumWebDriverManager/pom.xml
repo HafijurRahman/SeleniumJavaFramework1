@@ -75,5 +75,12 @@
 			<version>21.0</version>
 		</dependency>
 
+
+		<dependency>
+			<groupId>com.applitools</groupId>
+			<artifactId>eyes-selenium-java3</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+
 	</dependencies>
 </project>
