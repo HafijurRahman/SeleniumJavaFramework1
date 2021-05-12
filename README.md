@@ -1,2 +1,2 @@
 # SeleniumJavaFramework1
-This is an automated framework designed to test various functionalites of any Web Application.
+This is an automated framework designed to test various features of Web Apps.
